@@ -1,0 +1,46 @@
+body {
+    background: rgb(9, 9, 181);
+}
+
+div {
+    border: 2px solid rgb(70, 141, 249);
+    width: 450px;
+    height: 500px;
+    margin: 60px auto 0;
+    border-radius: 10px;
+    background-color: rgba(149, 149, 236, 0.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    margin: auto 120px;
+}
+
+.input {
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 2px solid rgb(70, 141, 249);
+    width: 370px;
+    height: 250px;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 1px;
+}
+
+.bottom {
+    border: 1px solid rgb(0, 5, 11);
+    border-radius: 3px;
+    margin-left: 200px;
+
+}

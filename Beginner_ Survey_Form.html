@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Beginner_Survey_Form.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="one">
+        <h3 class="header">Beginner Survey From</h3>
+        <from>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label>Name:</label>
+
+                <input class="input" type="Name" name="Name" placeholder="Enter your name"><br>
+
+                <label>Address:</label>
+
+                <input class="input" type="Address" name="Address" placeholder="Enter your Address"><br>
+
+                <label>Email:</label>
+
+                <input class="input" type="Email" name="Email" placeholder="Enter your Email"><br>
+
+                <Label>Number:</Label>
+
+                <input class="input" type="Number" name="Number" placeholder="Enter your Number">
+
+
+                <p>Please select your gender:</p>
+
+                <input type="radio" name="gender" value="Male"><label>Male</label><br>
+
+                <input type="radio" name="gender" value="Female" checked="2"><label>Female</label><br>
+
+                <input type="radio" name="gender" value="Non-binary"> <label>Non-binary</label><br>
+
+                <input type="radio" name="gender" value="Prefer not to say"> <label>Prefer not to say</label><br>
+            </fieldset>
+
+            <fieldset class="reset-this" style="height: 110px;width: 400px;">
+                <legend>Additional Information</legend>
+                <p>Enter Your Background Information</p>
+                <textarea class="input" rows="3" cols="45" name="message"
+                    placeholder="Enter Your Background Information"></textarea>
+            </fieldset><br>
+            <input class="bottom" type="submit" name="submit" value="submit">
+        </from>
+    </div>
+</body>
+
+</html>
